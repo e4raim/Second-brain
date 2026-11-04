@@ -6,6 +6,8 @@
 ## Весь цикл сделки
 - [Путь сделки](../knowledge/03-sales/put-sdelki.md)
 - [Встреча с собственником](../knowledge/03-sales/vstrecha-s-sobstvennikom.md)
+- [Стратегии продажи объекта: эксклюзив, партнёры, управление продажей](../knowledge/03-sales/strategii-prodazhi-obekta.md)
+- [Подготовка объекта к показу и мотивация собственника](../knowledge/03-sales/podgotovka-obekta-k-pokazu.md)
 - [Цена: переоценённый объект и снижение](../knowledge/03-sales/cena-i-snizhenie.md)
 - [Юридическая база](../knowledge/03-sales/yuridicheskaya-baza.md)
 - [Объявление, фото, рейтинг](../knowledge/03-sales/obyavlenie-i-foto.md)

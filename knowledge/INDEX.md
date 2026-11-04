@@ -18,6 +18,8 @@
 - [Звонок собственнику](03-sales/zvonok-sobstvenniku.md)
 - [Три простые договорённости](03-sales/tri-dogovorennosti.md)
 - [Встреча с собственником](03-sales/vstrecha-s-sobstvennikom.md)
+- [Стратегии продажи объекта](03-sales/strategii-prodazhi-obekta.md)
+- [Подготовка объекта к показу](03-sales/podgotovka-obekta-k-pokazu.md)
 - [Цена и снижение](03-sales/cena-i-snizhenie.md)
 - [Работа на перспективу и удержание](03-sales/rabota-na-perspektivu.md)
 - [Кросс-продажи элитным собственникам](03-sales/kross-prodazhi.md)
@@ -83,3 +85,4 @@
 | 2026-10-22 | [База знаний наставника: набор объектов](../sources/2026-10-22-baza-znaniy-nastavnika.md) | практика автора (записи разборов со стажёрами) |
 | 2026-10-26 | [Курс «Коммерческая недвижимость за 3 дня»](../sources/2026-10-26-kommerciya-za-3-dnya.md) | составлено Claude по открытым источникам |
 | 2026-11 | [Память Claude о работе автора](../sources/2026-11-pamyat-claude.md) | память Claude (export memories) |
+| 2026-11-04 | [Ошибки собственников элитной недвижимости (А. Аверьянов)](../sources/2026-11-04-averyanov-oshibki-sobstvennikov.md) | видео (внешний источник) |
