@@ -1,0 +1,158 @@
+<title>База знаний ЭстейтЛига</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Unbounded:wght@500;600&display=swap">
+<style>
+/* Layout: шапка с поиском, слева оглавление по разделам, справа статья ~68ch. На телефоне оглавление выезжает по кнопке. */
+:root{
+  --bg:#f6f7f9; --surface:#ffffff; --ink:#1b2430; --soft:#5a6474; --line:#e2e5ea;
+  --brass:#946f2f; --brass-soft:#f3ecdf; --focus:#2f5d9c;
+  --display:"Unbounded","Golos Text",system-ui,sans-serif;
+  --body:"Golos Text",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#11151b; --surface:#181d25; --ink:#e6e9ee; --soft:#9aa3b1; --line:#2a313c;
+  --brass:#d2ad6a; --brass-soft:#2a2418; --focus:#7aa7e6; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11151b; --surface:#181d25; --ink:#e6e9ee; --soft:#9aa3b1; --line:#2a313c;
+  --brass:#d2ad6a; --brass-soft:#2a2418; --focus:#7aa7e6; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+a{color:var(--brass)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:10px}
+.bar{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-family:var(--display);font-weight:600;font-size:15px;letter-spacing:.01em;color:var(--ink);text-decoration:none;white-space:nowrap}
+.brand span{color:var(--brass)}
+.search{flex:1 1 260px;min-width:0;position:relative}
+.search input{width:100%;font:inherit;font-size:15px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+#menuBtn{display:none;font:inherit;font-size:14px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);cursor:pointer}
+.wrap{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:260px minmax(0,1fr);gap:40px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 60px}
+nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 76px);align-self:start;max-height:calc(100vh - 100px);overflow:auto;font-size:14px}
+nav h4{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--soft);margin:18px 0 6px;font-weight:600}
+nav a{display:block;color:var(--ink);text-decoration:none;padding:5px 10px;border-radius:8px;line-height:1.35}
+nav a:hover{background:var(--brass-soft)}
+nav a.on{background:var(--brass-soft);color:var(--brass);font-weight:600}
+main{min-width:0;max-width:72ch}
+.crumb{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--brass);font-weight:600}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(24px,3.4vw,32px);line-height:1.2;margin:.3em 0 .6em;text-wrap:balance}
+article h2{font-size:21px;margin:1.8em 0 .5em;padding-top:.6em;border-top:1px solid var(--line);text-wrap:balance}
+article h3{font-size:17px;margin:1.4em 0 .4em}
+article p,article li{max-width:68ch}
+article blockquote{margin:1em 0;padding:10px 16px;border-left:3px solid var(--brass);background:var(--brass-soft);border-radius:0 10px 10px 0}
+article blockquote p{margin:.3em 0}
+.tbl{overflow-x:auto;margin:1em 0}
+article table{border-collapse:collapse;font-size:14.5px;min-width:100%}
+article th,article td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+article th{background:var(--brass-soft)}
+article code{font-size:.9em;background:var(--brass-soft);padding:1px 5px;border-radius:5px}
+article pre{background:var(--surface);border:1px solid var(--line);padding:12px;border-radius:10px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article input[type=checkbox]{accent-color:var(--brass);margin-right:6px}
+.lead{font-size:17px;color:var(--soft);margin-bottom:1.6em}
+.roles{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:0 0 28px}
+.role{display:block;padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:var(--surface);color:var(--ink);text-decoration:none}
+.role b{font-family:var(--display);font-weight:500;font-size:17px;display:block;margin-bottom:4px}
+.role span{color:var(--soft);font-size:14px}
+.role:hover{border-color:var(--brass)}
+.faq h2{font-size:18px;margin:1.6em 0 .4em}
+.faq ul{list-style:none;padding:0;margin:0}
+.faq li{border-bottom:1px solid var(--line)}
+.faq a{display:flex;justify-content:space-between;gap:16px;padding:10px 2px;color:var(--ink);text-decoration:none}
+.faq a:hover .q{color:var(--brass)}
+.faq .to{color:var(--soft);font-size:13px;white-space:nowrap;flex:none}
+.empty{color:var(--soft);padding:16px 0}
+.next{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--soft)}
+@media (max-width:860px){
+  .wrap{grid-template-columns:minmax(0,1fr);gap:0}
+  #menuBtn{display:block}
+  nav{position:fixed;inset:0 auto 0 0;width:min(320px,86vw);max-height:none;background:var(--surface);z-index:20;
+      padding:calc(env(safe-area-inset-top,0px) + 16px) 16px 24px max(16px,env(safe-area-inset-left,0px));
+      border-right:1px solid var(--line);transform:translateX(-105%);transition:transform .2s ease}
+  nav.open{transform:none}
+  .faq a{flex-direction:column;gap:2px}
+  .faq .to{white-space:normal}
+}
+@media (prefers-reduced-motion:reduce){nav{transition:none}}
+</style>
+
+<header><div class="bar">
+  <button id="menuBtn" type="button" aria-controls="toc" aria-expanded="false">Разделы</button>
+  <a class="brand" href="#home">ЭстейтЛига <span>· база знаний</span></a>
+  <div class="search"><input id="q" type="search" placeholder="Найди свой вопрос: «приходите с покупателем», «жёлтая зона»…" aria-label="Поиск по базе"></div>
+</div></header>
+<div class="wrap">
+  <nav id="toc" aria-label="Оглавление"></nav>
+  <main id="main"></main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script>
+const DATA = /*__DATA__*/null;
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const md = s => (window.marked ? marked.parse(s, {gfm:true}) : "<pre>"+esc(s)+"</pre>");
+
+function buildNav(active){
+  let h = `<h4>Начало</h4><a href="#home" class="${active==="home"?"on":""}">Вопросы и ответы</a>
+    <a href="#track-intern" class="${active==="track-intern"?"on":""}">Трек стажёра</a>
+    <a href="#track-agent" class="${active==="track-agent"?"on":""}">Трек агента</a>`;
+  let sec = null;
+  for (const slug of DATA.order){
+    const d = DATA.docs[slug];
+    if (d.sec !== sec){ sec = d.sec; h += `<h4>${esc(DATA.sections[sec]||sec)}</h4>`; }
+    h += `<a href="#${slug}" class="${active===slug?"on":""}">${esc(d.n||d.t)}</a>`;
+  }
+  $("#toc").innerHTML = h;
+}
+function wrapTables(el){ el.querySelectorAll("table").forEach(t=>{const w=document.createElement("div");w.className="tbl";t.parentNode.insertBefore(w,t);w.appendChild(t);}); }
+
+function faqList(groups){
+  if (!groups.length) return `<p class="empty">Ничего не нашлось. Попробуй другое слово или спроси наставника.</p>`;
+  return groups.map(g=>`<h2>${esc(g.h)}</h2><ul>${g.items.map(i=>
+    `<li><a href="#${i.to}"><span class="q">${esc(i.q)}</span><span class="to">${esc(i.names.join(" · "))}</span></a></li>`).join("")}</ul>`).join("");
+}
+function home(){
+  return `<div class="crumb">Для стажёров и агентов</div>
+  <h1>Есть вопрос? Ответ здесь</h1>
+  <p class="lead">Найди свой вопрос в списке или через поиск сверху. Не нашёл ответа — спроси наставника, и вопрос добавят.</p>
+  <div class="roles">
+    <a class="role" href="#track-intern"><b>Я стажёр</b><span>Программа по дням: от первого звонка до своего ЖК</span></a>
+    <a class="role" href="#track-agent"><b>Я агент</b><span>Весь цикл сделки, удержание собственника, сложные разговоры</span></a>
+  </div>
+  <div class="faq">${faqList(DATA.faq)}</div>`;
+}
+function search(term){
+  const t = term.toLowerCase().trim();
+  const groups = DATA.faq.map(g=>({h:g.h, items:g.items.filter(i=>i.q.toLowerCase().includes(t))})).filter(g=>g.items.length);
+  const topics = DATA.order.filter(s=>{const d=DATA.docs[s]; return d.t.toLowerCase().includes(t)||d.md.toLowerCase().includes(t);});
+  const tl = topics.length ? `<h2>Темы, где это упоминается</h2><ul>${topics.map(s=>`<li><a href="#${s}"><span class="q">${esc(DATA.docs[s].t)}</span><span class="to">${esc(DATA.sections[DATA.docs[s].sec]||"")}</span></a></li>`).join("")}</ul>` : "";
+  $("#main").innerHTML = `<div class="crumb">Поиск</div><h1>«${esc(term)}»</h1><div class="faq">${groups.length?faqList(groups):""}${tl||(!groups.length?faqList([]):"")}</div>`;
+}
+
+function render(){
+  const id = (location.hash||"#home").slice(1) || "home";
+  const main = $("#main");
+  if (DATA.docs[id]){
+    const d = DATA.docs[id], i = DATA.order.indexOf(id), nx = DATA.order[i+1];
+    main.innerHTML = `<div class="crumb">${esc(DATA.sections[d.sec]||"")}</div><h1>${esc(d.t)}</h1><article>${md(d.md)}</article>`+
+      (nx?`<div class="next">Дальше: <a href="#${nx}">${esc(DATA.docs[nx].n||DATA.docs[nx].t)}</a></div>`:"");
+  } else if (id.startsWith("track-") && DATA.tracks[id.slice(6)]){
+    const tr = DATA.tracks[id.slice(6)];
+    main.innerHTML = `<div class="crumb">Маршрут обучения</div><h1>${esc(tr.t)}</h1><article>${md(tr.md)}</article>`;
+  } else { main.innerHTML = home(); }
+  wrapTables(main);
+  main.querySelectorAll('input[type=checkbox]').forEach(c=>c.disabled=false);
+  buildNav(DATA.docs[id]||id.startsWith("track-")?id:"home");
+  $("#toc").classList.remove("open"); $("#menuBtn").setAttribute("aria-expanded","false");
+  window.scrollTo(0,0);
+}
+window.addEventListener("hashchange", ()=>{ $("#q").value=""; render(); });
+$("#q").addEventListener("input", e=>{ const v=e.target.value; v.trim().length>1 ? search(v) : render(); });
+$("#menuBtn").addEventListener("click", ()=>{ const n=$("#toc"); const o=n.classList.toggle("open"); $("#menuBtn").setAttribute("aria-expanded", String(o)); });
+render();
+</script>
