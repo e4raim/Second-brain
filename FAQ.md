@@ -16,6 +16,12 @@
 - Где лекции для самостоятельного обучения? → [Компания: инструменты](knowledge/01-company/o-kompanii.md)
 
 ## Компания и правила
+- Из каких этапов состоит работа агента? Какой продукт у звонка, у встречи? → [Путь сделки](knowledge/03-sales/put-sdelki.md)
+- Какой у агента распорядок дня? → [CRM и распорядок дня](knowledge/01-company/crm-i-rasporyadok-dnya.md)
+- С какого номера звонить? Какие теги ставить? → [CRM и распорядок дня](knowledge/01-company/crm-i-rasporyadok-dnya.md)
+- Что делать с новым лидом от колл-центра? → [CRM и распорядок дня](knowledge/01-company/crm-i-rasporyadok-dnya.md)
+- Чем первичка отличается от вторички? Квартира от апартаментов? → [Основы рынка](knowledge/02-product/rynok-osnovy.md)
+- Какая цель на первую неделю? → [Трек стажёра](tracks/intern.md)
 - Какие инструменты даёт компания (CRM, ЦИАН, юрист)? → [Компания](knowledge/01-company/o-kompanii.md)
 - Где переписываться с клиентами? Можно ли в Телеграме? → [Компания: безопасность](knowledge/01-company/o-kompanii.md)
 - Что писать в CRM после звонка? → [Комментарий в CRM](knowledge/03-sales/kommentarii-v-crm.md)
@@ -23,6 +29,7 @@
 - У меня куча просроченных звонков, с чего начать? → [План дня](knowledge/08-self-management/plan-dnya.md)
 
 ## Продукт и ЖК
+- Когда начинать работать по своему ЖК? Что в чек-листе по ЖК? → [Работа по одному ЖК](knowledge/02-product/rabota-po-odnomu-zhk.md)
 - Почему мы работаем в одном ЖК? → [Работа по одному ЖК](knowledge/02-product/rabota-po-odnomu-zhk.md)
 - Что нужно знать про свой ЖК и как понять, что я его выучил? → [Работа по одному ЖК](knowledge/02-product/rabota-po-odnomu-zhk.md)
 - Как разговаривать с клиентом вдвое старше и богаче меня? → [Наш клиент](knowledge/02-product/segment-i-klient.md)
@@ -39,8 +46,15 @@
 - Какую комиссию называть? Что делать, если просят меньше? → [Три договорённости](knowledge/03-sales/tri-dogovorennosti.md)
 - Нужен ли агентский договор на первой встрече? → [Три договорённости](knowledge/03-sales/tri-dogovorennosti.md)
 - Можно выставить объявление без разрешения собственника? → [Три договорённости](knowledge/03-sales/tri-dogovorennosti.md)
+- Что взять на встречу и что на ней обязательно сделать? → [Встреча: чек-лист](knowledge/03-sales/vstrecha-s-sobstvennikom.md)
 - Как подготовиться к встрече и что на ней говорить? → [Встреча с собственником](knowledge/03-sales/vstrecha-s-sobstvennikom.md)
 - Что делать после встречи? → [Встреча с собственником](knowledge/03-sales/vstrecha-s-sobstvennikom.md)
+- Что делать сразу после того, как взял объект? Что писать в первом комментарии? → [Объект в прайсе](knowledge/03-sales/obekt-v-praise.md)
+- Что такое жёлтая и красная зона? → [Объект в прайсе](knowledge/03-sales/obekt-v-praise.md)
+- Как часто звонить собственнику после выставления объекта? → [Объект в прайсе](knowledge/03-sales/obekt-v-praise.md)
+- Почему нельзя снижать цену неэксклюзивного объекта до перевода в эксклюзив? → [Объект в прайсе](knowledge/03-sales/obekt-v-praise.md)
+- Звонит покупатель по объявлению. Что спросить? → [Покупатели и показ](knowledge/03-sales/pokupateli-i-pokaz.md)
+- Как можно проводить показы? → [Покупатели и показ](knowledge/03-sales/pokupateli-i-pokaz.md)
 - Собственник хочет цену выше рынка. Что делать? → [Цена и снижение](knowledge/03-sales/cena-i-snizhenie.md)
 - Как правильно снижать цену? → [Цена и снижение](knowledge/03-sales/cena-i-snizhenie.md)
 - Почему собственнику невыгодно продавать самому или через несколько агентств? → [Стратегии продажи](knowledge/03-sales/strategii-prodazhi-obekta.md)
@@ -60,6 +74,8 @@
 - «Не работаю с агентами», «продаю сам» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
 - «Работаю с несколькими агентствами» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
 - «У меня уже есть агент» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
+- «Агенты бесполезны», «в объявлении всё написано», «берите комиссию с покупателя» → [Возражения: вопросы из регламента](knowledge/04-objections/vozrazheniya-sobstvennika.md)
+- «Мне неинтересно», «у меня свой брокер», «пришлите материалы», «я подумаю» (звонок на покупку) → [10 возражений × 5 ответов](knowledge/04-objections/vozrazheniya-pri-zvonke-na-pokupku.md)
 - «Перезвоните через месяц» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
 - «Снижаться не буду» → [Цена и снижение](knowledge/03-sales/cena-i-snizhenie.md)
 - «Дайте гарантию, иначе неустойка» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
@@ -72,6 +88,9 @@
 
 ## Сделка и документы
 - Из каких этапов состоит сделка? Какой у агента «продукт»? → [Путь сделки](knowledge/03-sales/put-sdelki.md)
+- Чем задаток отличается от аванса? Когда подключать юриста? → [Юридическая база](knowledge/03-sales/yuridicheskaya-baza.md)
+- Как заполнить агентский договор? Какие бывают агентские договоры? → [Юридическая база](knowledge/03-sales/yuridicheskaya-baza.md)
+- Какие документы и справки проверяем по объекту? → [Юридическая база](knowledge/03-sales/yuridicheskaya-baza.md)
 - Как работает сделка с ипотекой? Что такое аккредитив? → [Юридическая база](knowledge/03-sales/yuridicheskaya-baza.md)
 - Почему покупатель просит ДДУ, если квартира в собственности? → [Юридическая база](knowledge/03-sales/yuridicheskaya-baza.md)
 - Какие документы собственник готовит до выхода в рекламу? → [Юридическая база](knowledge/03-sales/yuridicheskaya-baza.md)

@@ -5,6 +5,9 @@
 
 ## Весь цикл сделки
 - [Путь сделки](../knowledge/03-sales/put-sdelki.md)
+- [Объект в прайсе: жёлтая и красная зоны, эксклюзив](../knowledge/03-sales/obekt-v-praise.md)
+- [Покупатели и показ](../knowledge/03-sales/pokupateli-i-pokaz.md)
+- [CRM и распорядок дня](../knowledge/01-company/crm-i-rasporyadok-dnya.md)
 - [Встреча с собственником](../knowledge/03-sales/vstrecha-s-sobstvennikom.md)
 - [Стратегии продажи объекта: эксклюзив, партнёры, управление продажей](../knowledge/03-sales/strategii-prodazhi-obekta.md)
 - [Подготовка объекта к показу и мотивация собственника](../knowledge/03-sales/podgotovka-obekta-k-pokazu.md)

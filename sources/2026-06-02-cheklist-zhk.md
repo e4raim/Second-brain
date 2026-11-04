@@ -17,4 +17,4 @@ original: "Чаты «Современный чеклист для стажер�
 - [knowledge/02-product/rabota-po-odnomu-zhk.md](../knowledge/02-product/rabota-po-odnomu-zhk.md)
 
 ## Вопросы и пробелы
-Сам чек-лист (docx/PDF) в выгрузку не попал. Пришли, и я добавлю его полный текст.
+Сам чек-лист получен отдельно: см. [2026-11-04-cheklist-po-zhk.md](2026-11-04-cheklist-po-zhk.md).

@@ -9,6 +9,7 @@
 
 ## Адаптация и обучение
 - [Адаптация стажёра](../knowledge/07-management/adaptaciya-stazhera.md)
+- [Объект в прайсе: жёлтая и красная зоны (контроль агентов)](../knowledge/03-sales/obekt-v-praise.md)
 - [Почему уходят стажёры](../knowledge/07-management/pochemu-uhodyat-stazhery.md)
 - [График и нормы](../knowledge/01-company/grafik-i-normy.md): одна норма — 350 минут минимум, цель 500
 - Весь [трек стажёра](intern.md): по нему ведёшь обучение

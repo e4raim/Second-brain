@@ -3,7 +3,7 @@ title: "График, нормы звонков и режим дня"
 section: 01-company
 roles: [стажер, агент, роп]
 level: базовый
-sources: [sources/2026-10-22-baza-znaniy-nastavnika.md, sources/2026-09-08-chm-mirgorodskiy-otdel-prodazh.md, sources/2026-10-09-sobesedovaniya-i-obuchenie-stazherov.md]
+sources: [sources/2026-11-04-reglament-agenta.md, sources/2026-11-04-programma-nastavnika.md, sources/2026-10-22-baza-znaniy-nastavnika.md, sources/2026-09-08-chm-mirgorodskiy-otdel-prodazh.md, sources/2026-10-09-sobesedovaniya-i-obuchenie-stazherov.md]
 updated: 2026-11-04
 ---
 
@@ -27,6 +27,8 @@ updated: 2026-11-04
 | Минуты разговора в неделю | Минимум 350, цель 500 |
 | Звонков в день | 100–200 |
 | Объектов в рекламе на ЦИАНе | Стремимся к 40 |
+
+**Регламент компании** задаёт минимум 40 звонков в день и распорядок дня (см. [CRM и распорядок дня](crm-i-rasporyadok-dnya.md)). **Цель первой недели стажёра** по программе наставника: 2–3 встречи в день и 4 объекта с открытых источников за неделю.
 
 Эта норма одна для всех и не меняется от разговора к разговору. Цифры, которые звучали раньше (50 звонков и 10 встреч в день, 100 объявлений ЦИАНа, 40 звонков в регламенте, 70–80 звонков на «Часе менеджера»), считаем устаревшими или частными ориентирами.
 

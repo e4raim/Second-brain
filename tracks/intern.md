@@ -3,18 +3,23 @@
 **Для кого:** новичок, первые 2–4 недели.
 **Результат прохождения:** понимает компанию и продукт, знает структуру звонка и три главных возражения, набирает первые объекты.
 
+> **Цель первой недели:** 2–3 встречи в день и 4 объекта с открытых источников (ЦИАН, Авито) за неделю. После 4 объектов — CRM, лиды компании и работа по своему ЖК.
+>
 > Сначала звонки, потом теория. Юридика и деньги со второй недели. Не знаешь, куда смотреть, — открой [FAQ](../FAQ.md).
 
 ## День 1 — компания и логика звонка
 - [ ] [Компания: кто мы, сегмент, инструменты](../knowledge/01-company/o-kompanii.md)
+- [ ] [Основы рынка: первичка, вторичка, апартаменты](../knowledge/02-product/rynok-osnovy.md)
+- [ ] [Путь сделки: 6 этапов и продукт каждого](../knowledge/03-sales/put-sdelki.md)
 - [ ] [График и нормы](../knowledge/01-company/grafik-i-normy.md): минимум 350 минут в неделю, цель 500
 - [ ] [Звонок собственнику: логика и структура](../knowledge/03-sales/zvonok-sobstvenniku.md)
 - [ ] [Три простые договорённости](../knowledge/03-sales/tri-dogovorennosti.md)
 - [ ] [Скрипт звонка собственнику](../knowledge/05-scripts/skript-zvonka-sobstvenniku.md) — распечатать, первое время читать с листа
-- [ ] Домашнее задание: выучить свой ЖК → [Работа по одному ЖК](../knowledge/02-product/rabota-po-odnomu-zhk.md)
+
 
 ## День 2 — возражения и CRM
 - [ ] [Возражения собственника](../knowledge/04-objections/vozrazheniya-sobstvennika.md): по 5 отработок на три главных
+- [ ] [CRM, теги и распорядок дня](../knowledge/01-company/crm-i-rasporyadok-dnya.md)
 - [ ] [Комментарий в CRM](../knowledge/03-sales/kommentarii-v-crm.md)
 - [ ] [Источники объектов](../knowledge/03-sales/istochniki-obektov.md)
 - [ ] [Страх звонить и отказы](../knowledge/08-self-management/strah-i-otkazy.md)
@@ -25,9 +30,13 @@
 - [ ] [Наш клиент](../knowledge/02-product/segment-i-klient.md)
 - [ ] [План дня](../knowledge/08-self-management/plan-dnya.md)
 
+## После 4 объектов — свой ЖК
+- [ ] [Работа по одному ЖК + чек-лист по ЖК](../knowledge/02-product/rabota-po-odnomu-zhk.md)
+- [ ] [Объект в прайсе: реклама, жёлтая и красная зоны](../knowledge/03-sales/obekt-v-praise.md)
+- [ ] [Покупатели и показ](../knowledge/03-sales/pokupateli-i-pokaz.md)
+
 ## Неделя 2 — деньги и сделка
 - [ ] [Деньги агента](../knowledge/01-company/dengi-agenta.md)
-- [ ] [Путь сделки](../knowledge/03-sales/put-sdelki.md)
 - [ ] [Цена и снижение](../knowledge/03-sales/cena-i-snizhenie.md)
 - [ ] [Объявление, фото, рейтинг](../knowledge/03-sales/obyavlenie-i-foto.md)
 - [ ] [Юридическая база](../knowledge/03-sales/yuridicheskaya-baza.md): только ипотека, аккредитив, документы

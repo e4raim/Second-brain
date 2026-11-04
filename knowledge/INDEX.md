@@ -6,8 +6,10 @@
 - [Компания: кто мы, сегмент, инструменты](01-company/o-kompanii.md)
 - [Деньги агента](01-company/dengi-agenta.md)
 - [График, нормы и режим](01-company/grafik-i-normy.md)
+- [CRM, теги и распорядок дня](01-company/crm-i-rasporyadok-dnya.md)
 
 ## 02 Продукт
+- [Основы рынка](02-product/rynok-osnovy.md)
 - [Работа по одному ЖК](02-product/rabota-po-odnomu-zhk.md)
 - [Наш клиент](02-product/segment-i-klient.md)
 - [Коммерческая недвижимость за 3 дня](02-product/kommercheskaya-nedvizhimost.md)
@@ -18,6 +20,8 @@
 - [Звонок собственнику](03-sales/zvonok-sobstvenniku.md)
 - [Три простые договорённости](03-sales/tri-dogovorennosti.md)
 - [Встреча с собственником](03-sales/vstrecha-s-sobstvennikom.md)
+- [Новый объект в прайсе](03-sales/obekt-v-praise.md)
+- [Покупатели и показ](03-sales/pokupateli-i-pokaz.md)
 - [Стратегии продажи объекта](03-sales/strategii-prodazhi-obekta.md)
 - [Подготовка объекта к показу](03-sales/podgotovka-obekta-k-pokazu.md)
 - [Цена и снижение](03-sales/cena-i-snizhenie.md)
@@ -86,3 +90,9 @@
 | 2026-10-26 | [Курс «Коммерческая недвижимость за 3 дня»](../sources/2026-10-26-kommerciya-za-3-dnya.md) | составлено Claude по открытым источникам |
 | 2026-11 | [Память Claude о работе автора](../sources/2026-11-pamyat-claude.md) | память Claude (export memories) |
 | 2026-11-04 | [Ошибки собственников элитной недвижимости (А. Аверьянов)](../sources/2026-11-04-averyanov-oshibki-sobstvennikov.md) | видео (внешний источник) |
+| 2026-11-04 | [Регламенты, нормативы, методологии, инструменты для работы агента](../sources/2026-11-04-reglament-agenta.md) | документ компании (официальный регламент) |
+| 2026-11-04 | [Методичка агента ЭстейтЛига](../sources/2026-11-04-metodichka-agenta.md) | методичка (сделана с Claude на основе регламента и практики автора) |
+| 2026-11-04 | [Программа наставника: первая неделя](../sources/2026-11-04-programma-nastavnika.md) | документ наставника (сделан с Claude) |
+| 2026-11-04 | [Лекция «Обучение агента за один день»](../sources/2026-11-04-lekciya-obuchenie-za-den.md) | сценарий для наставника (сделан с Claude) |
+| 2026-11-04 | [Чек-лист по ЖК](../sources/2026-11-04-cheklist-po-zhk.md) | документ компании |
+| 2026-11-04 | [Возражения 10 × 5 при звонке с предложением покупки](../sources/2026-11-04-vozrazheniya-10x5.md) | подготовлено с Claude, 📌 автор использует на звонках |
