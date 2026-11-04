@@ -20,5 +20,3 @@ original: "Чат «Конспект по продажам недвижимос�
 - [knowledge/03-sales/dozhim-i-zakrytie.md](../knowledge/03-sales/dozhim-i-zakrytie.md)
 - [knowledge/04-objections/vozrazheniya-sobstvennika.md](../knowledge/04-objections/vozrazheniya-sobstvennika.md)
 
-## Вопросы и пробелы
-Написание фамилии: в чатах встречается и «Деметриадис», и «Димитриадис». В базе используется «Димитриадис». Как правильно?

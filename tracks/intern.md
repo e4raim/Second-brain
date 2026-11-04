@@ -7,7 +7,7 @@
 
 ## День 1 — компания и логика звонка
 - [ ] [Компания: кто мы, сегмент, инструменты](../knowledge/01-company/o-kompanii.md)
-- [ ] [График и нормы](../knowledge/01-company/grafik-i-normy.md)
+- [ ] [График и нормы](../knowledge/01-company/grafik-i-normy.md): минимум 350 минут в неделю, цель 500
 - [ ] [Звонок собственнику: логика и структура](../knowledge/03-sales/zvonok-sobstvenniku.md)
 - [ ] [Три простые договорённости](../knowledge/03-sales/tri-dogovorennosti.md)
 - [ ] [Скрипт звонка собственнику](../knowledge/05-scripts/skript-zvonka-sobstvenniku.md) — распечатать, первое время читать с листа
