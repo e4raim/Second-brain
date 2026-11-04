@@ -1,25 +1,98 @@
 # Вопросы и ответы
 
-Начни здесь. Найди свой вопрос (Ctrl+F / поиск) — по ссылке будет ответ.
-Не нашёл ответа — спроси наставника, и вопрос добавят сюда.
+Начни здесь. Найди свой вопрос (Ctrl+F или поиск), ответ по ссылке.
+Не нашёл ответа? Спроси наставника, и вопрос добавят сюда.
 
 ## Первые дни
-*(пока пусто)*
+- Что за компания и с какими клиентами мы работаем? → [Компания](knowledge/01-company/o-kompanii.md)
+- Сколько я буду зарабатывать и как считается доход? → [Деньги агента](knowledge/01-company/dengi-agenta.md)
+- Почему стажировка не оплачивается? → [Деньги агента](knowledge/01-company/dengi-agenta.md)
+- Какой у нас график? Почему суббота рабочая? → [График и нормы](knowledge/01-company/grafik-i-normy.md)
+- Сколько нужно звонить в день? → [График и нормы](knowledge/01-company/grafik-i-normy.md)
+- Почему я звоню, а денег нет? → [Работа на перспективу](knowledge/03-sales/rabota-na-perspektivu.md)
+- Мне страшно звонить. Что делать? → [Страх и отказы](knowledge/08-self-management/strah-i-otkazy.md)
+- Как не расстраиваться из-за отказов? → [Страх и отказы](knowledge/08-self-management/strah-i-otkazy.md)
+- В голове каша, не знаю, что сказать. Как учиться? → [Страх и отказы](knowledge/08-self-management/strah-i-otkazy.md)
+- Где лекции для самостоятельного обучения? → [Компания: инструменты](knowledge/01-company/o-kompanii.md)
 
 ## Компания и правила
-*(пока пусто)*
+- Какие инструменты даёт компания (CRM, ЦИАН, юрист)? → [Компания](knowledge/01-company/o-kompanii.md)
+- Где переписываться с клиентами? Можно ли в Телеграме? → [Компания: безопасность](knowledge/01-company/o-kompanii.md)
+- Что писать в CRM после звонка? → [Комментарий в CRM](knowledge/03-sales/kommentarii-v-crm.md)
+- Как спланировать рабочий день? → [План дня](knowledge/08-self-management/plan-dnya.md)
+- У меня куча просроченных звонков, с чего начать? → [План дня](knowledge/08-self-management/plan-dnya.md)
 
-## Продукт
-*(пока пусто)*
+## Продукт и ЖК
+- Почему мы работаем в одном ЖК? → [Работа по одному ЖК](knowledge/02-product/rabota-po-odnomu-zhk.md)
+- Что нужно знать про свой ЖК и как понять, что я его выучил? → [Работа по одному ЖК](knowledge/02-product/rabota-po-odnomu-zhk.md)
+- Как разговаривать с клиентом вдвое старше и богаче меня? → [Наш клиент](knowledge/02-product/segment-i-klient.md)
+- Как говорить с инвестором, с тем, кто живёт сам, с тем, кто сдаёт? → [Наш клиент](knowledge/02-product/segment-i-klient.md)
+- Чем офис отличается от стрит-ритейла и ПСН? Что такое ГАБ и НДС? → [Коммерческая недвижимость](knowledge/02-product/kommercheskaya-nedvizhimost.md)
 
-## Работа с клиентом
-*(пока пусто)*
+## Работа с собственником
+- Где брать объекты? Что такое «вычисления», «актуалка», «револьверка»? → [Источники объектов](knowledge/03-sales/istochniki-obektov.md)
+- Как начать звонок собственнику? → [Звонок собственнику](knowledge/03-sales/zvonok-sobstvenniku.md) · [Скрипт](knowledge/05-scripts/skript-zvonka-sobstvenniku.md)
+- Какие вопросы задавать собственнику и зачем? → [Звонок: квалификация](knowledge/03-sales/zvonok-sobstvenniku.md)
+- Собственник спрашивает «а зачем вам эта информация?» → [Звонок: квалификация](knowledge/03-sales/zvonok-sobstvenniku.md)
+- Мне говорить «у меня продаются соседние квартиры», если их нет? → [Звонок: логика захода](knowledge/03-sales/zvonok-sobstvenniku.md)
+- О чём договариваться с собственником? → [Три договорённости](knowledge/03-sales/tri-dogovorennosti.md)
+- Какую комиссию называть? Что делать, если просят меньше? → [Три договорённости](knowledge/03-sales/tri-dogovorennosti.md)
+- Нужен ли агентский договор на первой встрече? → [Три договорённости](knowledge/03-sales/tri-dogovorennosti.md)
+- Можно выставить объявление без разрешения собственника? → [Три договорённости](knowledge/03-sales/tri-dogovorennosti.md)
+- Как подготовиться к встрече и что на ней говорить? → [Встреча с собственником](knowledge/03-sales/vstrecha-s-sobstvennikom.md)
+- Что делать после встречи? → [Встреча с собственником](knowledge/03-sales/vstrecha-s-sobstvennikom.md)
+- Собственник хочет цену выше рынка. Что делать? → [Цена и снижение](knowledge/03-sales/cena-i-snizhenie.md)
+- Как правильно снижать цену? → [Цена и снижение](knowledge/03-sales/cena-i-snizhenie.md)
+- Собственник сказал «продаю через полгода». Что с ним делать? → [Работа на перспективу](knowledge/03-sales/rabota-na-perspektivu.md)
+- Почему собственники уходят к другим агентам, когда объект уже у меня? → [Работа на перспективу](knowledge/03-sales/rabota-na-perspektivu.md)
+- Что написать собственнику в мессенджер? → [Скрипт переписки](knowledge/05-scripts/skript-perepiski-s-sobstvennikom.md)
+- Как звонить собственникам элитных ЖК? → [Кросс-продажи](knowledge/03-sales/kross-prodazhi.md) · [Скрипт](knowledge/05-scripts/skript-kross-prodazhi.md)
 
-## Возражения: «а если клиент говорит…»
-*(пока пусто)*
+## Возражения: «а если собственник говорит…»
+- «Не даю рекламу», «не выставляйте на ЦИАН» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
+- «Приходите с покупателем» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
+- «Не плачу комиссию», «плачу 1%» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
+- «Не работаю с агентами», «продаю сам» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
+- «У меня уже есть агент» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
+- «Перезвоните через месяц» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
+- «Снижаться не буду» → [Цена и снижение](knowledge/03-sales/cena-i-snizhenie.md)
+- «Дайте гарантию, иначе неустойка» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
+- «Я сама риелтор» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
+- «Зачем встречаться, всё есть в объявлении» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
+- «Другой агент сказал, что снизил бы комиссию» → [Возражения](knowledge/04-objections/vozrazheniya-sobstvennika.md)
+- «Откуда у вас мой номер?» → [Возражения в переписке](knowledge/04-objections/vozrazheniya-pri-zvonke-na-pokupku.md)
+- «Какой покупатель? Дайте конкретику» → [Возражения в переписке](knowledge/04-objections/vozrazheniya-pri-zvonke-na-pokupku.md)
+- «Не пишите мне» → [Возражения в переписке](knowledge/04-objections/vozrazheniya-pri-zvonke-na-pokupku.md)
 
-## Скрипты: «что говорить, когда…»
-*(пока пусто)*
+## Сделка и документы
+- Из каких этапов состоит сделка? Какой у агента «продукт»? → [Путь сделки](knowledge/03-sales/put-sdelki.md)
+- Как работает сделка с ипотекой? Что такое аккредитив? → [Юридическая база](knowledge/03-sales/yuridicheskaya-baza.md)
+- Почему покупатель просит ДДУ, если квартира в собственности? → [Юридическая база](knowledge/03-sales/yuridicheskaya-baza.md)
+- Нужно ли согласие супруга при сдаче в аренду? → [Юридическая база](knowledge/03-sales/yuridicheskaya-baza.md)
+- Клиент правит наш агентский договор. Что нельзя отдавать? → [Юридическая база](knowledge/03-sales/yuridicheskaya-baza.md)
+- Показал объект другого агентства. Как защитить комиссию? → [Юридическая база: акт просмотра](knowledge/03-sales/yuridicheskaya-baza.md)
+- Мне стыдно дожимать. Что говорить на закрытии? → [Дожим и закрытие](knowledge/03-sales/dozhim-i-zakrytie.md)
 
-## Для РОПа и руководителя
-*(пока пусто)*
+## Объявления
+- Как написать описание квартиры? Что нельзя писать? → [Объявление и фото](knowledge/03-sales/obyavlenie-i-foto.md)
+- Как поднять рейтинг на ЦИАНе и попросить отзыв? → [Объявление и фото](knowledge/03-sales/obyavlenie-i-foto.md)
+
+## Для наставника и РОПа
+- Как провести собеседование? Кого брать? → [Собеседование кандидата](knowledge/07-management/sobesedovanie-kandidata.md)
+- Что такое «перформер» и «делатель»? → [Собеседование кандидата](knowledge/07-management/sobesedovanie-kandidata.md)
+- Что подготовить до выхода стажёра и как провести первые дни? → [Адаптация стажёра](knowledge/07-management/adaptaciya-stazhera.md)
+- Бизнес-тренера нет. Как обучить стажёра самому? → [Адаптация стажёра](knowledge/07-management/adaptaciya-stazhera.md)
+- Почему уходят стажёры? → [Почему уходят стажёры](knowledge/07-management/pochemu-uhodyat-stazhery.md)
+- Почему набирать стажёров надо группой? → [Структура отдела](knowledge/07-management/struktura-otdela.md)
+- Каким должен быть здоровый отдел? Как работать с топами? → [Структура отдела](knowledge/07-management/struktura-otdela.md)
+- Когда переводить агента в наставники? → [Структура отдела](knowledge/07-management/struktura-otdela.md)
+- Как заранее увидеть, что агент «сливается»? → [Фокус, флаги, КОПы](knowledge/07-management/fokus-flagi-kopy-ritmy.md)
+- Что такое КОПы и ГПР? → [Фокус, флаги, КОПы](knowledge/07-management/fokus-flagi-kopy-ritmy.md)
+- Сотрудник не делает, что нужно. Как влиять? → [Инструменты влияния](knowledge/07-management/instrumenty-vliyaniya.md)
+- Кого растить, кого увольнять? → [Раздваивание и отбор](knowledge/07-management/razdvaivanie-i-otbor.md)
+- Как передать свою базу на прозвон коллегам? → [Передача лидов](knowledge/07-management/peredacha-lidov-agentam.md)
+- Что сказать на «Часе менеджера»? → [30 тезисов](knowledge/07-management/tezisy-dlya-chm.md)
+
+## Для руководителя
+- У кого учиться и каким быть подчинённым? → [Каким быть -1](knowledge/07-management/kakim-byt-minus-odin.md)
+- Как отдыхать, чтобы был результат? → [Отдых и восстановление](knowledge/08-self-management/otdyh-i-vosstanovlenie.md)
