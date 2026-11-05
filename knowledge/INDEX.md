@@ -40,6 +40,7 @@
 - [Звонок собственнику](05-scripts/skript-zvonka-sobstvenniku.md)
 - [Переписка с собственником](05-scripts/skript-perepiski-s-sobstvennikom.md)
 - [Элитные ЖК и кросс-продажи](05-scripts/skript-kross-prodazhi.md)
+- [Звонки покупателям, которые звонили по нашим объектам](05-scripts/skript-zvonka-pokupatelyu.md)
 
 ## 06 Разборы диалогов
 *(пока пусто: присылай записи звонков)*

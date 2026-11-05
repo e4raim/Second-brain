@@ -34,6 +34,7 @@
 - [ ] [Работа по одному ЖК + чек-лист по ЖК](../knowledge/02-product/rabota-po-odnomu-zhk.md)
 - [ ] [Объект в прайсе: реклама, жёлтая и красная зоны](../knowledge/03-sales/obekt-v-praise.md)
 - [ ] [Покупатели и показ](../knowledge/03-sales/pokupateli-i-pokaz.md)
+- [ ] [Скрипт звонков покупателям](../knowledge/05-scripts/skript-zvonka-pokupatelyu.md)
 
 ## Неделя 2 — деньги и сделка
 - [ ] [Деньги агента](../knowledge/01-company/dengi-agenta.md)

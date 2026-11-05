@@ -53,6 +53,8 @@
 - Что такое жёлтая и красная зона? → [Объект в прайсе](knowledge/03-sales/obekt-v-praise.md)
 - Как часто звонить собственнику после выставления объекта? → [Объект в прайсе](knowledge/03-sales/obekt-v-praise.md)
 - Почему нельзя снижать цену неэксклюзивного объекта до перевода в эксклюзив? → [Объект в прайсе](knowledge/03-sales/obekt-v-praise.md)
+- Как перезванивать покупателям, которые звонили по нашим объектам? → [Скрипт звонка покупателю](knowledge/05-scripts/skript-zvonka-pokupatelyu.md)
+- Покупатель говорит «пришлите в WhatsApp», «уже купили», «у нас свой агент» → [Скрипт звонка покупателю](knowledge/05-scripts/skript-zvonka-pokupatelyu.md)
 - Звонит покупатель по объявлению. Что спросить? → [Покупатели и показ](knowledge/03-sales/pokupateli-i-pokaz.md)
 - Как можно проводить показы? → [Покупатели и показ](knowledge/03-sales/pokupateli-i-pokaz.md)
 - Собственник хочет цену выше рынка. Что делать? → [Цена и снижение](knowledge/03-sales/cena-i-snizhenie.md)

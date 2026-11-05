@@ -26,7 +26,7 @@ def roles(fm):
 def clean(body):
     # убрать разделы для руководителя и внутренние ⚠️-блоки
     body = re.sub(r"\n## (Для руководителя|⚠️[^\n]*)\n.*?(?=\n## |\Z)", "\n", body, flags=re.S)
-    lines = [l for l in body.splitlines() if not re.search(r"Вопрос автору|inbox/|sources/|\*\*Пришли", l)]
+    lines = [l for l in body.splitlines() if not re.search(r"Вопрос автору|inbox/|sources/|\*\*Пришли|⚠️ Черновик", l)]
     return "\n".join(lines).strip()
 
 docs, order = {}, []
@@ -37,7 +37,7 @@ PREFERRED = ["o-kompanii", "dengi-agenta", "grafik-i-normy", "crm-i-rasporyadok-
     "rabota-na-perspektivu", "strategii-prodazhi-obekta", "obyavlenie-i-foto", "kommentarii-v-crm",
     "dozhim-i-zakrytie", "yuridicheskaya-baza", "kross-prodazhi",
     "vozrazheniya-sobstvennika", "vozrazheniya-pri-zvonke-na-pokupku",
-    "skript-zvonka-sobstvenniku", "skript-perepiski-s-sobstvennikom", "skript-kross-prodazhi",
+    "skript-zvonka-sobstvenniku", "skript-perepiski-s-sobstvennikom", "skript-zvonka-pokupatelyu", "skript-kross-prodazhi",
     "strah-i-otkazy", "plan-dnya", "otdyh-i-vosstanovlenie", "kakim-byt-minus-odin"]
 def rank(p):
     slug = os.path.splitext(os.path.basename(p))[0]
