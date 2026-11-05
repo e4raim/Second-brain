@@ -1,0 +1,141 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><title>Звонки старым покупателям · ЭстейтЛига</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Unbounded:wght@500;600&display=swap">
+<style>
+:root{--ink:#1b2430;--soft:#5a6474;--line:#dfe3e8;--brass:#946f2f;--tint:#f4eee3;--tint2:#f3f5f8;
+  --display:"Unbounded","Golos Text",sans-serif;--body:"Golos Text",Arial,sans-serif}
+@page{size:A4;margin:16mm 15mm 16mm 15mm}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font-family:var(--body);font-size:9.8pt;line-height:1.42}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.2;margin:0}
+.page{page-break-after:always}
+.page:last-child{page-break-after:auto}
+.cover{height:262mm;display:flex;flex-direction:column;justify-content:space-between}
+.cover .eye{font-size:9pt;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);font-weight:600}
+.cover h1{font-size:34pt;margin:14mm 0 6mm}
+.cover p{font-size:12.5pt;color:var(--soft);max-width:130mm}
+.toc{border-top:1.5px solid var(--ink);padding-top:6mm;display:grid;grid-template-columns:1fr 1fr;gap:2mm 10mm;font-size:10pt}
+.toc div{display:flex;gap:3mm}.toc b{color:var(--brass);font-variant-numeric:tabular-nums;min-width:6mm}
+.sec{font-size:8.5pt;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);font-weight:600;margin-bottom:2mm}
+h2{font-size:18pt;margin-bottom:4mm}
+h3{font-size:11pt;margin:3.5mm 0 1.5mm}
+p{margin:0 0 2.5mm}
+ul,ol{margin:0 0 3mm;padding-left:5mm}li{margin-bottom:1mm}
+.lead{font-size:10.8pt;color:var(--soft);margin-bottom:3.5mm}
+table{width:100%;border-collapse:collapse;margin:2mm 0 4mm;font-size:9.5pt;page-break-inside:avoid}
+th,td{border:1px solid var(--line);padding:1.4mm 2.2mm;text-align:left;vertical-align:top}
+th{background:var(--tint);font-weight:600}
+.say{background:var(--tint2);border-left:3px solid var(--brass);padding:2mm 3.5mm;margin:1.5mm 0 2.5mm;border-radius:0 2mm 2mm 0;page-break-inside:avoid}
+.say p{margin:0 0 1.2mm}.say p:last-child{margin:0}
+.say .who{font-weight:600;color:var(--brass)}
+.note{font-size:9.5pt;color:var(--soft)}
+.box{border:1.5px solid var(--ink);border-radius:2mm;padding:3.5mm 4.5mm;margin:3mm 0 4mm;page-break-inside:avoid}
+.box h3{margin-top:0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:6mm}
+.chain{display:flex;flex-wrap:wrap;gap:1.5mm;align-items:center;margin:3mm 0 4mm;font-size:9.5pt}
+.chain span{border:1px solid var(--ink);border-radius:10mm;padding:1.2mm 3mm;font-weight:600}
+.chain i{color:var(--brass);font-style:normal}
+.fill td{height:9mm}
+.fill.tall td{height:13mm}
+.lines div{border-bottom:1px solid var(--line);height:8mm}
+.chk{list-style:none;padding-left:0}.chk li::before{content:"☐  ";color:var(--brass)}
+dl{display:grid;grid-template-columns:34mm 1fr;gap:1.5mm 4mm;margin:0;font-size:9.8pt}
+dt{font-weight:600}dd{margin:0;color:var(--ink)}
+.foot{font-size:8pt;color:var(--soft);margin-top:4mm}
+</style></head><body>
+
+<section class="page">
+  <div class="sec">ЭстейтЛига · скрипт</div>
+  <h2 style="font-size:22pt">Звонки старым покупателям</h2>
+  <p class="lead">Как прозванивать людей, которые когда-то звонили по нашим объектам, и что им говорить.</p>
+
+  <h3>Что к чему</h3>
+  <ul>
+    <li><b>Кто это.</b> Люди, которые раньше звонили по объявлениям наших объектов. Они уже искали квартиру в нашем ЖК или районе, у них были деньги и интерес. Это самые тёплые контакты в базе.</li>
+    <li><b>Где их взять.</b> CRM → Контакты → Теги → «Покупатель» + тег своего ЖК, галочка «Теги вместе». Так ты видишь всех, кто когда-либо обращался по твоему ЖК.</li>
+    <li><b>Зачем звоним.</b> Три цели: 1) покупатель ещё ищет — подбираем и ведём на показ; 2) он уже купил — его прежняя квартира может стать нашим объектом на продажу или аренду; 3) он отложил — узнаём срок и ставим дату следующего звонка.</li>
+    <li><b>Когда.</b> По распорядку дня — после 15:00, блок «Тег „Покупатели“», около часа. И всегда в первые 3 дня, когда у тебя появился новый объект: предлагаем его всем покупателям с похожим запросом.</li>
+    <li><b>Главное.</b> Покупателю мы ничего не продаём за его деньги: комиссию платит собственник. Ты звонишь с пользой — с вариантом, с новостью по дому, с вопросом, актуален ли поиск.</li>
+  </ul>
+
+  <div class="chain"><span>Открытие</span><i>→</i><span>Актуален ли поиск?</span><i>→</i><span>Ветка</span><i>→</i><span>Следующий шаг</span><i>→</i><span>Запись в CRM</span></div>
+
+  <h3>1. Открытие</h3>
+  <div class="say">
+    <p>Здравствуйте, [имя]! Меня зовут [твоё имя], агентство недвижимости ЭстейтЛига. Вы раньше интересовались квартирой в [ЖК]. Подскажите, поиск ещё актуален?</p>
+  </div>
+  <p class="note">Если не помнит: «Вы звонили по [комнатность] в [ЖК] примерно [когда]. Я веду этот дом, поэтому и набираю».</p>
+
+  <h3>2. Звонок с новым объектом</h3>
+  <div class="say">
+    <p>[Имя], добрый день, это [имя] из ЭстейтЛиги. Вы искали [параметры] в [ЖК]. Сейчас вышла квартира: [комнатность], [метраж], [этаж], [главная фишка]. Она только появилась. Ещё ищете? Показать вам первым?</p>
+  </div>
+</section>
+
+<section class="page">
+  <div class="sec">Ветки разговора</div>
+  <h2>Что дальше, в зависимости от ответа</h2>
+
+  <h3>«Да, ищем»</h3>
+  <div class="say">
+    <p>Отлично. Что сейчас ищете? Что-то изменилось с прошлого раза?</p>
+  </div>
+  <p>Дальше по одному вопросу:</p>
+  <table>
+    <tr><th>Вопрос</th><th>Что узнаёшь</th></tr>
+    <tr><td>Для себя или для кого-то? Кто ещё принимает решение?</td><td>Кто решает</td></tr>
+    <tr><td>Комнатность, метраж, ремонт?</td><td>Параметры</td></tr>
+    <tr><td>Только этот ЖК или район?</td><td>Насколько он «наш»</td></tr>
+    <tr><td>Наличные или ипотека? Одобрение есть? Банк, сумма?</td><td>Деньги</td></tr>
+    <tr><td>Как скоро нужно купить?</td><td>Срочность</td></tr>
+    <tr><td>Что уже смотрели? Почему не подошло?</td><td>С чем сравнивает, что важно</td></tr>
+  </table>
+  <div class="say"><p>Понял(а). Подберу варианты и пришлю сегодня. Если что-то подойдёт — когда удобнее посмотреть: в будни вечером или в выходные?</p></div>
+
+  <h3>«Уже купили»</h3>
+  <div class="say">
+    <p>Поздравляю! Где купили, если не секрет? … А прежнюю квартиру планируете продавать или сдавать?</p>
+  </div>
+  <p class="note">Если да — это твой новый собственник: дальше как со звонком собственнику, цель — встреча. Если нет — «Если понадобится, я на связи. Можно я буду иногда присылать новости по рынку?» Тег «Бывшие клиенты» или «Собственник».</p>
+
+  <h3>«Отложили» / «Пока не ищем»</h3>
+  <div class="say">
+    <p>Понимаю. А что должно произойти, чтобы вы вернулись к покупке? … Когда вам удобно, чтобы я напомнил о себе?</p>
+  </div>
+  <p class="note">Записать причину и дату. Перезванивать с поводом: новый объект, изменились цены, сделка в доме.</p>
+
+  <h3>«Мы уже не в Москве» / «Передумали»</h3>
+  <div class="say"><p>Понял(а), спасибо, что сказали. Если планы поменяются или нужно будет что-то продать или сдать — у вас есть мой номер. Хорошего дня!</p></div>
+
+  <h3>Закрытие любого звонка</h3>
+  <p>Всегда есть следующий шаг: показ, отправка подборки и звонок на следующий день, или дата следующего звонка. «Ну, если что — звоните» — это не шаг.</p>
+</section>
+
+<section class="page">
+  <div class="sec">9 · Возражения покупателя</div>
+  <h2>Что ответить покупателю</h2>
+  <table>
+    <tr><th style="width:52mm">Покупатель говорит</th><th>Ты отвечаешь</th></tr>
+    <tr><td>«Пришлите в WhatsApp, сам посмотрю»</td><td>«Пришлю. Фото не передают вид и планировку. Когда удобно посмотреть вживую — в будни или в выходные?»</td></tr>
+    <tr><td>«Дайте адрес, посмотрим дом снаружи» / «Дайте номер собственника»</td><td>«Собственник доверил показы мне, поэтому смотрим вместе. Я подстроюсь под ваше время: когда удобно?»</td></tr>
+    <tr><td>«Дорого»</td><td>«Какой бюджет для вас комфортный? Торг обсуждается после просмотра, когда понятно, за что цена. Могу показать и альтернативу в вашем бюджете».</td></tr>
+    <tr><td>«Пока просто смотрим»</td><td>«Понимаю. К какому сроку хотели бы переехать? Что важно найти?» Записать сроки, поставить звонок.</td></tr>
+    <tr><td>«У нас свой агент»</td><td>«Отлично, работаем с агентами покупателей. Дайте его контакт, организую показ для вас обоих».</td></tr>
+    <tr><td>«Уже купили»</td><td>«Поздравляю! Прежнюю квартиру планируете продавать или сдавать?»</td></tr>
+    <tr><td>«А комиссия с меня?»</td><td>«Нет, вам это ничего не стоит: комиссию платит собственник».</td></tr>
+    <tr><td>«Откуда у вас мой номер?»</td><td>«Вы звонили нам по квартире в [ЖК], ваш запрос сохранился у нас. Если неактуально — скажите, больше не побеспокою».</td></tr>
+  </table>
+
+  <div class="sec" style="margin-top:8mm">10 · После звонка</div>
+  <h2>Без записи в CRM звонка не было</h2>
+  <ul>
+    <li>Звонишь только с корпоративной сим-карты.</li>
+    <li>В карточке: имя, личный номер, теги, комментарий, дата следующего звонка. Не дозвонилась — всё равно ставишь звонок и перезваниваешь.</li>
+    <li>Комментарий из пяти частей: что ищет → что ты говорила и предлагала → выводы (тёплый или нет, кто решает, бюджет, сроки) → о чём договорились → следующий шаг и дата.</li>
+    <li>Теги: «Покупатель» + ЖК. Купил и продаёт прежнюю — добавь «Собственник». Купил через нас — «Бывшие клиенты».</li>
+  </ul>
+  <div class="box">
+    <h3>Пример комментария</h3>
+    <p class="note">Повторный звонок. Ищет 2-комн. в [ЖК], 60–70 м², с ремонтом, ипотека одобрена (банк, сумма), решает с женой, срок — до весны. Смотрел два варианта у соседей, не подошли виды. Отправил подборку из 3 квартир. Договорились: созвон завтра в 18:00, если понравится — показ в субботу.</p>
+  </div>
+</section>
+</body></html>
